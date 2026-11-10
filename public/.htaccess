@@ -1,0 +1,29 @@
+# GazMin Commodities on Apache (cPanel). The static export serves /page/ from
+# /page/index.html, so no rewrite rules are needed.
+Options -Indexes
+DirectoryIndex index.html
+ErrorDocument 404 /404.html
+
+AddType image/webp .webp
+AddType video/webm .webm
+AddType image/svg+xml .svg
+AddType application/manifest+json .webmanifest
+AddType text/vcard .vcf
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain application/javascript application/json image/svg+xml
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  # Content-hashed build assets never change.
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType text/css "access plus 1 year"
+  # Photos and video keep their names when replaced, so a month.
+  ExpiresByType image/webp "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/svg+xml "access plus 1 month"
+  ExpiresByType video/mp4 "access plus 1 month"
+  ExpiresByType video/webm "access plus 1 month"
+  ExpiresByType text/html "access plus 0 seconds"
+</IfModule>

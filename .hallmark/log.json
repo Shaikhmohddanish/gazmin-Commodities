@@ -1,0 +1,34 @@
+[
+ {
+  "shape": "custom",
+  "theme": "brand (GazMin, spec 2026-11-09)",
+  "axes": "dark/geometric-sans/chromatic-gold",
+  "hero": "poster: harvest video full-bleed, head left on its scrim, trade map in a navy glass card right",
+  "nav": "logo left, floating glass pill of links, quiet enquire action right",
+  "footer": "mast of address and contacts, two columns, folded disclaimer",
+  "imagery": "client video, client portraits (muted)",
+  "photos": [],
+  "entry": "settle on load (hero), one reveal on scroll",
+  "fingerprint": "navy paper, gold accent, League Spartan, glass panels, dotted trade map",
+  "sections": [
+   "hero + trade map",
+   "trade book index",
+   "statements",
+   "pillar quote",
+   "leadership",
+   "group companies",
+   "enquiry",
+   "footer"
+  ],
+  "signature": "the trade map: gold routes from Business Bay to the Middle East, Africa, Asia and Europe",
+  "waived": [
+   "29",
+   "38iii",
+   "2b",
+   "49b"
+  ],
+  "prompt": "GazMin Commodities homepage: premium dark glass look like veldrixsecurity.com, in the GazMin navy and gold",
+  "date": "2026-11-09",
+  "mode": "build"
+ }
+]

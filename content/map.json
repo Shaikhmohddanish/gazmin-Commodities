@@ -1,0 +1,47 @@
+{
+  "width": 119,
+  "height": 60,
+  "hub": {
+    "label": "Business Bay, Dubai",
+    "place": "below-right",
+    "x": 79,
+    "y": 26.85,
+    "lat": 25.1858,
+    "lng": 55.2655
+  },
+  "regions": [
+    {
+      "label": "Middle East",
+      "place": "left",
+      "x": 74.5,
+      "y": 24.25,
+      "lat": 31.5,
+      "lng": 42
+    },
+    {
+      "label": "Europe",
+      "place": "above",
+      "x": 63.5,
+      "y": 15.59,
+      "lat": 50,
+      "lng": 10
+    },
+    {
+      "label": "Africa",
+      "place": "below",
+      "globe": "left",
+      "x": 67.5,
+      "y": 34.64,
+      "lat": 4,
+      "lng": 22
+    },
+    {
+      "label": "Asia",
+      "place": "above",
+      "x": 93,
+      "y": 25.11,
+      "lat": 30,
+      "lng": 95
+    }
+  ]
+}

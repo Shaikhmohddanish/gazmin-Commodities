@@ -1,0 +1,1340 @@
+{
+  "site": {
+    "title": "GazMin Commodities",
+    "tagline": "Shaping the Future of Global Commodities",
+    "url": "http://localhost:8081"
+  },
+  "forms": {
+    "contact": {
+      "title": "Contact Us",
+      "submitText": "Send Message",
+      "notifyEmail": "commodity@gazminintl.com",
+      "fields": [
+        {
+          "type": "name",
+          "label": "Name",
+          "required": true,
+          "format": "first-last",
+          "firstPlaceholder": "Enter your first name here",
+          "lastPlaceholder": "Enter your last name here"
+        },
+        {
+          "type": "email",
+          "label": "Email Address",
+          "required": true,
+          "placeholder": "Example user@website.com"
+        },
+        {
+          "type": "text",
+          "label": "Subject",
+          "required": true,
+          "placeholder": "How can we help you?"
+        },
+        {
+          "type": "textarea",
+          "label": "Comments / Questions",
+          "required": false,
+          "placeholder": "Feel free to ask a question or simply leave a comment"
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "front": true,
+      "sections": [
+        {
+          "t": "sliderHero",
+          "a": []
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "eyebrow": "Who We Are",
+              "title": "About GazMin Commodities",
+              "html": "<p>GazMin Commodities connects global markets with trusted producers, traders, and distributors, delivering reliable commodity solutions worldwide. We support governments, state-owned enterprises, and industrial organizations in securing scalable, compliant supply chains that meet large-scale operational and national development needs.</p>",
+              "img": "home-03.jpg"
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "eyebrow": "How We Work",
+              "title": "Origin-Backed Supply, Long-Term Offtake",
+              "html": "<p>We work closely with producers, refineries, mills, and manufacturers to facilitate direct access to origin-backed supply and long-term offtake arrangements. Our expertise spans high-volume commodity trading, strategic supply agreements, and government-to-business (G2B) or business-to-business (B2B) transactions. Beyond trading, GazMin Commodities engages in the financing, structuring, and execution of commodity-related projects, supporting industrial and infrastructure development in emerging and established markets. Transparency, reliability, and risk management are central to our approach, ensuring consistency in global trade.</p>",
+              "img": "home-04.jpg",
+              "reverse": true,
+              "light": true,
+              "cta": {
+                "text": "Read More",
+                "link": "/corporate-profile/"
+              }
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "eyebrow": "The Group",
+              "title": "Part of GazMin International",
+              "html": "<p>As a subsidiary of GazMin Project Management and Development - a diversified conglomerate headquartered in Dubai, U.A.E. - we leverage integrated expertise in funding, project development, and construction across commodities, infrastructure, oil and gas, minerals, education, and automotive sectors. This enables us to provide end-to-end support, from financing and logistics to project-aligned commodity supply.</p>\n<p>Serving markets across the Middle East, Africa, Asia, and Europe, GazMin Commodities contributes to food security, energy continuity, industrial growth, and infrastructure development, delivering strategic value to nations and enterprises worldwide.</p>",
+              "img": "home-05.jpg",
+              "imageTop": true,
+              "dark": true
+            }
+          ]
+        },
+        {
+          "t": "quoteBand",
+          "a": [
+            "“We drive global trade and ensure food security by supplying premium agricultural commodities through a trusted network of producers, committed to consistency, reliability, and sustainable growth.”",
+            null,
+            {
+              "img": "home-06.jpg"
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "eyebrow": "Mission & Vision",
+              "title": "Shaping the Future of Global Commodities",
+              "html": "<p>GazMin Commodities understands the importance of quality, consistency, and trust in global commodity markets. We strive to provide our clients with reliable products and responsive service that support efficient operations and long-term partnerships. We promote a culture of collaboration and open communication, encouraging engagement across our teams and with our clients. Our globally diverse workforce strengthens our market insight and operational capability. Beyond commercial success, we are committed to responsible sourcing, sustainable operations, and contributing positively to the regions where we conduct business.</p>",
+              "img": "home-07.jpg",
+              "cta": {
+                "text": "Read More",
+                "link": "/the-group/"
+              }
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "eyebrow": "Why GazMin",
+              "title": "Reliability, Market Expertise, Disciplined Execution",
+              "html": "<p>GazMin Commodities was established with a forward-looking vision and innovative commercial strategies within the global commodities sector. The organization is recognized for its reliability, market expertise, and disciplined execution across complex supply chains. Our commodities solutions are tailored to the specific requirements of our partners, supported by deep industry knowledge and a strong global network. GazMin Commodities ensures consistent access to high-quality resources through efficient sourcing, risk-managed trading structures, and adherence to international standards. We are committed to delivering value, transparency, and operational excellence across every transaction we facilitate.</p>",
+              "img": "home-08.jpg",
+              "imageTop": true,
+              "light": true,
+              "cta": {
+                "text": "Read More",
+                "link": "/why-gazmin/"
+              }
+            }
+          ]
+        },
+        {
+          "t": "quoteBand",
+          "a": [
+            "“We measure our performance not by temporary but the long-term success of our clients.”",
+            "The Founding Pillars of GazMin Group"
+          ]
+        },
+        {
+          "t": "iconGrid",
+          "a": [
+            {
+              "eyebrow": "Leadership",
+              "title": "Guided by Vision",
+              "perRow": 2,
+              "items": [
+                {
+                  "icon": "fas fa-user-tie",
+                  "title": "Ashok Sagar",
+                  "text": "Founder & Chairman",
+                  "photo": "leader-ashok.jpg",
+                  "person": true,
+                  "cardClass": "ga-leader-card"
+                },
+                {
+                  "icon": "fas fa-user-tie",
+                  "title": "Mohit Sagar",
+                  "text": "CEO & Managing Director",
+                  "photo": "leader-mohit.jpg",
+                  "person": true,
+                  "cardClass": "ga-leader-card"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "t": "section",
+          "a": [
+            {
+              "css_classes": "ga-section-light",
+              "padding": {
+                "t": "PAD",
+                "a": [
+                  80,
+                  10
+                ]
+              }
+            },
+            [
+              {
+                "t": "column",
+                "a": [
+                  100,
+                  [
+                    {
+                      "t": "eyebrow",
+                      "a": [
+                        "The GazMin Group"
+                      ]
+                    },
+                    {
+                      "t": "heading",
+                      "a": [
+                        "Core Business Segments",
+                        "h2",
+                        "",
+                        {
+                          "align": "center"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "divider",
+                      "a": []
+                    }
+                  ]
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "title": "Gazmin International",
+              "html": "<p>Gazmin International a leading project management consultancy that offers comprehensive consultation services on a global scale. GazMin provides Financial Advisory, Fund Raising and Reimbursing Strategic Advisory, Mergers and Acquisitions (M &amp; A), Capital Market Advisory, Restructuring Loan and Liability Management, Specialized Advisory, Transactions and advice to build and finance a range infrastructure projects for public and private sector. We are building and Financing Projects such as Oil and Gas up, down and midstream projects, Mining Sectors, Airport Project, Aircraft Wet and Dry Leasing, Airport Staff Taring and Management Services.</p>",
+              "img": "home-11.jpg",
+              "reverse": true,
+              "light": true,
+              "cta": {
+                "text": "Read More",
+                "link": "https://gazminintl.com/"
+              }
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "title": "GazMin Oils & Minerals",
+              "html": "<p>GazMin engages in the mining project finance, acquisition, evaluation and production of mineral reserves as well as the advancement of mine engineering and technology and provision of information consulting services. The company offers a diverse range of industrial ferro alloyed and metallurgical products, along with precious metal like gold, diamond and silver. In addition, its assets include resources such as coal, iron ore, copper, manganese, bauxite, nickel, cobalt, lithium and more. Furthermore, the firm engages in the retailing of oil and gas projects in the upstream and midstream sectors as well as the trading of crude oil, crude derivatives and natural gas products.</p>",
+              "img": "home-12.jpg",
+              "cta": {
+                "text": "Read More",
+                "link": "https://www.gazminoilandminerals.com/"
+              }
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "title": "GazMin Motors",
+              "html": "<p>GazMin Motors is the sole authorized distributor and agency form the global renowned Chinese automotive manufacturing group’s motor bikes, cord bikes and golf carts. In the production and delivery of exceptional motor vehicles to our valued customers, our manufacturer has accumulated more than 45 years of unparallel experience. GazMin operate showrooms, services, leasing and delivery departments and other services. GazMin maintains consistent communication with its customers and maintains an extensive inventory of products. We at GazMin are dedicated to professionalism, ensuring that all aspects of our operations are consistent with the highest standards of quality and customer service.</p>",
+              "img": "home-13.jpg",
+              "reverse": true,
+              "light": true,
+              "cta": {
+                "text": "Read More",
+                "link": "https://www.gazminmotors.com/"
+              }
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "title": "GazMin Medipharma",
+              "html": "<p>GazMin Medipharma plays a pivotal role in the healthcare industry and facilities investments in healthcare facilities, pharmaceuticals and cutting-edge medical technology enterprises. A healthier global community though steady global progress, ensuring access to quality healthcare. We collaborate with internationally recognized pharmaceutical organizations and enterprises that construct cutting-edge healthcare facilities, including hospitals, clinics, campuses and any additional infrastructure for the healthcare sector. We facilitate financing and construction of healthcare projects, as well as assist underprivileged countries in acquiring drugs and necessary equipment for hospitals.</p>",
+              "img": "home-14.jpg",
+              "cta": {
+                "text": "Read More",
+                "link": "https://www.gazminmedipharma.com/"
+              }
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "title": "GazMin Aviation",
+              "html": "<p>We offer comprehensive support and services to airlines globally, irrespective of their locations. We specialize in creating customized leasing agreements that correspond with our clients operational and financial objectives, thereby improving their efficiency and success. GazMin Aviation is a reliable partner for the development and maintenance of first-rate domestic and international airports because to our associates extensive experience in the field, track record of success, ability to provide individualized solutions and knowledge of international best practices. We are dedicated to excellence, innovation and integrity in the aviation industry.</p>",
+              "img": "home-15.jpg",
+              "reverse": true,
+              "light": true,
+              "cta": {
+                "text": "Read More",
+                "link": "https://www.gazminaviation.com/"
+              }
+            }
+          ]
+        },
+        {
+          "t": "section",
+          "a": [
+            {
+              "padding": {
+                "t": "PAD",
+                "a": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            },
+            [
+              {
+                "t": "column",
+                "a": [
+                  100,
+                  [
+                    {
+                      "t": "image",
+                      "a": [
+                        "home-16.jpg",
+                        "ga-img-frame ga-img-closing"
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "the-group",
+      "title": "The Group",
+      "sections": [
+        {
+          "t": "hero",
+          "a": [
+            {
+              "inner": true,
+              "title": "The Group",
+              "sub": "“Empowering growth - Our Inspiration, Our Motivation”",
+              "image": "group-03.jpg"
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "eyebrow": "Our Commitment",
+              "title": "Setting the Global Benchmark in Commodities Trading",
+              "html": "<p>“We are committed to setting the global benchmark in commodities trading, combining deep market insight with disciplined execution.” Our team of seasoned professionals delivers precise, informed decisions, ensuring clients realize consistent, sustainable value. Integrity, transparency, and accountability guide every transaction and every relationship we build.</p>\n<p>“We prioritize long-term growth and wealth creation, carefully balancing ambition with prudence. Partnership, reliability, and performance form the pillars of our approach to commodities trading.”</p>",
+              "img": "group-02.jpg"
+            }
+          ]
+        },
+        {
+          "t": "quoteBand",
+          "a": [
+            "“If you want to walk fast, walk alone. But if you want to walk far, walk together.”<br>“I have always been very confident that if you are focused on your values, success will follow.”<br>“I admire people who don’t have power but still have the power to make a difference.”",
+            "Sir Ratan Tata"
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "eyebrow": "Leadership",
+              "title": "Visionary Leadership",
+              "html": "<p>GazMin Commodities, the general trade arm of GazMin International Group, was founded under the visionary leadership of Mr. Ashok Sagar, Founder and Chairman. Driven by a commitment to excellence, the company delivers innovative, reliable, and efficient solutions in the global commodities market. Mr. Sagar’s leadership emphasizes integrity, transparency, and long-term value creation.</p>\n<p>From its inception, GazMin has focused on building a strong foundation to navigate complex market dynamics. The leadership team fosters a culture of accountability and ethical business practices. Strategic foresight and disciplined execution position the company as a trusted partner worldwide. GazMin continuously explores new opportunities while maintaining core values. Innovation and employee empowerment are integral to sustaining growth and competitiveness. Leadership development and talent retention ensure continuity and operational strength. Every decision reflects a balance of vision, ethics, and market insight. By combining clarity of purpose with robust governance, GazMin sets benchmarks in excellence, client trust, and industry leadership.</p>",
+              "img": "group-01.jpg",
+              "portrait": true,
+              "reverse": true,
+              "light": true
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "eyebrow": "Excellence",
+              "title": "Market Expertise and Operational Excellence",
+              "html": "<p>GazMin Commodities leverages a team of seasoned professionals with deep market insights and global experience. Each transaction is executed with precision, discipline, and a focus on maximizing client value. Operational excellence is achieved through robust systems, efficient processes, and adherence to international best practices. The company continually monitors market trends to identify opportunities and mitigate risks. Advanced analytics and market intelligence guide every strategic decision.</p>\n<p>Client satisfaction is ensured through transparent communication, personalized services, and timely delivery. GazMin integrates technology and innovation to enhance responsiveness and operational efficiency. Strategic partnerships further expand market reach and capabilities. Risk management is embedded in all operations to safeguard assets and maintain profitability. The company emphasizes sustainable growth while maintaining flexibility in dynamic market conditions. Through consistent performance, GazMin demonstrates reliability, expertise, and trustworthiness in every transaction. Operational discipline and market acumen allow the company to deliver high-value outcomes across multiple commodities sectors.</p>",
+              "img": "group-04.jpg"
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "eyebrow": "Diversification",
+              "title": "Multi-Sector Operations",
+              "html": "<p>GazMin International Group operates across aviation, healthcare, automobiles, infrastructure, and essential commodities, including oil, gas, minerals, and agricultural products. Leveraging its expertise in trading, financing, and construction, the Group delivers tailored solutions that meet the specific operational requirements of each sector.</p>\n<p>Combining deep local market knowledge with adherence to international standards, GazMin International Group ensures efficient execution and consistent quality across all operations. Its integrated operating model aligns capital structuring, procurement, and project delivery to generate measurable outcomes, foster innovation, and cultivate long-term strategic partnerships. This deliberate diversification underpins the Group’s competitiveness and agility in global markets.</p>\n<p><strong>GazMin International Group is strategically expanding into high-growth and transformative sectors, including AI, the Blockchain Ecosystem and Education.</strong></p>",
+              "img": "group-05.jpg",
+              "reverse": true,
+              "light": true
+            }
+          ]
+        },
+        {
+          "t": "iconGrid",
+          "a": [
+            {
+              "eyebrow": "The Future",
+              "title": "Path to Expansion",
+              "perRow": 3,
+              "light": false,
+              "items": [
+                {
+                  "icon": "fas fa-microchip",
+                  "title": "Artificial Intelligence",
+                  "photo": "group-06.jpg",
+                  "text": "GazMin is leveraging AI to enhance operational efficiency, enable predictive analytics, and drive data-informed decision-making across its diversified portfolio."
+                },
+                {
+                  "icon": "fas fa-cubes",
+                  "title": "Blockchain Ecosystem",
+                  "photo": "group-07.jpg",
+                  "text": "GazMin International Group is strategically expanding into the blockchain ecosystem - exploring regulated digital asset trading, decentralized finance (DeFi) platforms, and blockchain-enabled operational transparency. By harnessing distributed ledger technologies, GazMin aims to strengthen transactional security, optimize complex supply chains, and deliver next-generation financial solutions that adhere to global compliance and governance standards."
+                },
+                {
+                  "icon": "fas fa-graduation-cap",
+                  "title": "Education",
+                  "photo": "group-08.jpg",
+                  "text": "GazMin invests in institutional infrastructure, technology-enabled learning platforms, and workforce development programs that build sustainable economic capacity and future-ready talent."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "corporate-profile",
+      "title": "Corporate Profile",
+      "sections": [
+        {
+          "t": "hero",
+          "a": [
+            {
+              "inner": true,
+              "title": "Corporate Profile",
+              "sub": "Powered by a team of specialists who understand the complexities of global commodity markets.",
+              "image": "profile-01.jpg"
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "eyebrow": "Our Team",
+              "title": "Specialists in Global Commodity Markets",
+              "html": "<p>Gazmin Commodity is powered by a team of specialists who understand the complexities of global commodity markets. Our professionals span trading, supply chain management, price risk advisory, market research, and business development. With direct exposure to international markets and industry networks, our team continuously tracks market movements, regulatory shifts, and supply-demand dynamics - ensuring our clients benefit from timely insights and strategic clarity.</p>",
+              "img": "profile-01.jpg"
+            }
+          ]
+        },
+        {
+          "t": "portraitBlock",
+          "a": [
+            {
+              "name": "Ashok K Sagar",
+              "role": "Founder & Executive Chairman",
+              "photo": "leader-ashok.jpg",
+              "light": true,
+              "html": "<p>Ashok Sagar, hailing from a distinguished lineage in the gold jewellery business family, was born and raised in Bahrain, beginning his journey there. Mr. Ashok is the Founder &amp; Executive Chairman of GazMin - a leading project management consultancy that offers comprehensive consultation services on a global scale. GazMin provides Financial Advisory, Strategic Advisory, Mergers and Acquisitions (M&amp;A), Capital Markets Advisory, Restructuring Loan and Liability Management, Specialized Advisory, Transactions, and advice to build and finance a range of infrastructure projects, including downstream and midstream oil and gas projects, mining, highways, roads, and bridges, social and economic housing, fossil and renewable power plants, education, healthcare, airports, railways, logistics, industrial parks, and more. GazMin has earned global recognition for its exemplary work in project management.</p>\n<p>We provide sustainable solutions that meet, exceed, and satisfy clients’ ambitions. GazMin under its umbrella intends to transform into a conglomerate with verticals - namely Gazmin Project Development Consultant, GazMin Aviation, GazMin MediPharma, GazMin Motors, GazMin International Oil &amp; Minerals and GazMin International General Trade - that are the current enterprises. GazMin is a pioneer, one of the most recognized names in the field, an organization that focuses on financial consultancy and project management. We offer comprehensive services for clients in the government, semi-government and private sectors.</p>"
+            }
+          ]
+        },
+        {
+          "t": "portraitBlock",
+          "a": [
+            {
+              "name": "Mohit Sagar",
+              "role": "CEO & Managing Director",
+              "photo": "leader-mohit.jpg",
+              "reverse": true,
+              "html": "<p>Mohit Sagar, a prominent figure in international trade, holds a Bachelor of Arts with Honors in International Business from Middlesex University. Currently, he is an emerging star in the investment industry. With his unique business acumen and strategic vision, he has successfully incubated companies such as GazMin Motors LLC and GazMin Medipharma FZ LLC, which have not only delivered remarkable returns but have also positioned themselves at the forefront of their industries, expanding their reach from the UAE to the Middle East, Central Asia, and the United States. His approach to investment analysis includes a thorough process of market research, risk assessment, and trend forecasting, all aimed at identifying optimal opportunities for growth. By consistently recognizing emerging trends and market shifts, with the strong backing of GazMin Group, he maximizes returns on investment.</p>\n<p>As the CEO and Managing Director of GazMin Group, he holds a key leadership position, responsible for setting the strategic direction, managing operations, and ensuring the execution of high-impact initiatives. He is instrumental in driving the company’s vision and executing its long-term business plans. Additionally, he has been a vital contributor to the realization of the executive management’s strategic vision, overseeing projects in Africa, Asia, and other global regions. His leadership has played an essential role in the expansion and success of GazMin Group’s international ventures, ensuring the company remains at the forefront of industry developments.</p>"
+            }
+          ]
+        },
+        {
+          "t": "pillarsSection",
+          "a": [
+            {
+              "title": "Our Pillars",
+              "quote": "\"We measure performance not by temporary but the long-term success of the clients\"",
+              "note": "Team member profiles - with photographs and professional backgrounds - will be published here shortly.",
+              "members": [
+                {
+                  "name": "Ashok K Sagar",
+                  "role": "Founder & Executive Chairman",
+                  "photo": "leader-ashok.jpg"
+                },
+                {
+                  "name": "Mohit Sagar",
+                  "role": "CEO & Managing Director",
+                  "photo": "leader-mohit.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "why-gazmin",
+      "title": "Why GazMin",
+      "sections": [
+        {
+          "t": "hero",
+          "a": [
+            {
+              "inner": true,
+              "title": "Why GazMin?",
+              "sub": "Precision, transparency, and a long-term value creation mindset.",
+              "image": "why-01.jpg"
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "eyebrow": "Global Reach",
+              "title": "A Globally Oriented Trading & Supply Enterprise",
+              "html": "<p>GazMin Commodities is a globally oriented commodities trading and supply enterprise, delivering strategic sourcing solutions across agricultural, industrial, and metal markets. With a strong foundation in disciplined trade execution and market intelligence, we serve as a reliable partner to producers, processors, manufacturers, and large-scale buyers worldwide. Our operations are guided by precision, transparency, and a long-term value creation mindset.</p>",
+              "img": "why-02.jpg"
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "eyebrow": "Agriculture",
+              "title": "Food Grains, Edible Oils & Fertilisers",
+              "html": "<p>Our core agricultural portfolio encompasses Food Grains and Edible Oils, where we work closely with established producers and exporters to ensure consistent quality, competitive pricing, and uninterrupted supply. We support food manufacturers, wholesalers, and institutional buyers by managing procurement, quality control, and logistics with stringent standards. Complementing this, our Fertilisers business plays a vital role in strengthening agricultural productivity and food security, supplying essential inputs tailored to regional agronomic needs.</p>",
+              "img": "why-03.jpg",
+              "reverse": true,
+              "light": true
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "eyebrow": "Industry",
+              "title": "Construction & Industrial Materials",
+              "html": "<p>GazMin Commodities maintains a strong presence in construction and industrial materials, including Cement products, Steel Bars, and Copper Cathode. These commodities are critical to infrastructure development, energy transition, and manufacturing supply chains. Through structured sourcing, contract optimization, and efficient logistics, we help our partners manage cost, continuity, and operational risk across volatile markets.</p>",
+              "img": "why-04.jpg"
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "eyebrow": "Soft Commodities",
+              "title": "Balancing Exposure, Delivering Outcomes",
+              "html": "<p>Beyond hard commodities, we are active across a broad spectrum of soft commodities, leveraging regional expertise, demand analytics, and supply-chain coordination to navigate price fluctuations and seasonal dynamics. Our integrated trading approach enables us to balance market exposure while delivering dependable outcomes for clients operating in fast-moving and competitive environments.</p>",
+              "img": "why-05.jpg",
+              "reverse": true,
+              "light": true
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "eyebrow": "Governance",
+              "title": "Compliance & Execution Excellence",
+              "html": "<p>What differentiates GazMin Commodities is our commitment to governance, compliance, and execution excellence. We operate with a strong emphasis on regulatory adherence, risk management, and ethical business practices. Our experienced team combines commercial insight with operational discipline, supported by a global network of suppliers, logistics providers, inspection agencies, and financial partners.</p>",
+              "img": "why-06.jpg"
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "eyebrow": "Partnership",
+              "title": "More Than a Trading Counterparty",
+              "html": "<p>As markets evolve and supply chains become increasingly complex, GazMin Commodities remains focused on building resilient partnerships and delivering scalable commodity solutions. We strive to be more than a trading counterparty - acting instead as a strategic partner that enables growth, stability, and long-term success across global commodity markets.</p>",
+              "img": "why-01.jpg",
+              "reverse": true,
+              "light": true,
+              "cta": {
+                "text": "Explore Our Business Verticals",
+                "link": "/business-verticals/"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "business-verticals",
+      "title": "Business Verticals",
+      "sections": [
+        {
+          "t": "hero",
+          "a": [
+            {
+              "inner": true,
+              "title": "Business Verticals",
+              "sub": "Agri Commodities · Fertilizers · Oil & Gas · Metals & Construction Materials",
+              "image": "comm-wheat-01.jpg"
+            }
+          ]
+        },
+        {
+          "t": "section",
+          "a": [
+            {
+              "padding": {
+                "t": "PAD",
+                "a": [
+                  40,
+                  10
+                ]
+              }
+            },
+            [
+              {
+                "t": "column",
+                "a": [
+                  100,
+                  [
+                    {
+                      "t": "text",
+                      "a": [
+                        "<p style=\"text-align:center;\"><a href=\"#agri\">Agri Commodities</a><a href=\"#fertilizers\">Fertilizers</a><a href=\"#oil-gas\">Oil &amp; Gas</a><a href=\"#metals\">Metals &amp; Construction</a></p>",
+                        "ga-anchor-nav"
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "t": "section",
+          "a": [
+            {
+              "padding": {
+                "t": "PAD",
+                "a": [
+                  30,
+                  0
+                ]
+              }
+            },
+            [
+              {
+                "t": "column",
+                "a": [
+                  100,
+                  [
+                    {
+                      "t": "widget",
+                      "a": [
+                        "menu-anchor",
+                        {
+                          "anchor": "agri"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "heading",
+                      "a": [
+                        "Agri Commodities",
+                        "h2",
+                        "ga-cat-label"
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "title": "1. Coffee",
+              "html": "<p>As one of the world’s most traded agricultural commodities, coffee drives a dynamic, multi-billion-dollar global market. We curate and supply exceptional coffee beans from renowned origins such as Brazil, Colombia, Vietnam, and India, delivering consistency, traceability, and excellence at scale.</p><p>Our product range spans Arabica, Robusta, specialty single-origin coffees, and bespoke blends, crafted to meet the highest international standards. Each offering is designed to satisfy the expectations of discerning cafés, global retail brands, and industrial manufacturers. We deliver coffee solutions built on precision sourcing, dependable logistics, and long-term supply partnerships.</p>",
+              "img": "comm-coffee-01.jpg",
+              "reverse": false,
+              "light": true,
+              "wide": false
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "title": "2. Sugar",
+              "html": "<p>We source sugar from leading producers in Brazil, India, and Thailand, supplying both refined and raw sugar in bulk volumes to meet the demands of food and beverage manufacturers. All our products comply with rigorous international standards for purity, consistency, and quality, with ICUMSA grading applied to ensure precise specification and performance for industrial and commercial applications.</p><p>Our supply is aligned with London Sugar Market pricing, offering competitive rates and reliable availability. With a focus on operational efficiency, on-time delivery, and traceable sourcing, we provide sugar solutions that enable our partners to maintain consistency, scale production, and remain globally competitive.</p>",
+              "img": "comm-sugar-01.jpg",
+              "reverse": true,
+              "wide": false
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "title": "3. Wheat",
+              "html": "<p>We supply high-quality wheat sourced from leading origins including the U.S., India, Russia, and Canada, available in both hard and soft varieties to suit diverse industrial and commercial applications. Our portfolio includes standard trade grades (Hard Red Winter, Hard Red Spring, Soft Wheat, and Milling Wheat), all meeting strict international quality standards for protein content, moisture, and purity.</p><p>Tailored for bakeries, flour mills, and food manufacturers, our wheat solutions ensure consistent supply, optimal milling performance, and reliable delivery, supporting operational efficiency and production scalability. Backed by robust logistics and transparent sourcing, we deliver wheat that meets global trade requirements and enables businesses to remain competitive across international markets.</p>",
+              "img": "comm-wheat-01.jpg",
+              "reverse": false,
+              "light": true,
+              "wide": false
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "title": "4. Rice",
+              "html": "<p>We supply premium rice varieties, including Basmati, Jasmine, and Long-Grain, sourced from leading origins such as India, Thailand, and Vietnam. Available in both white (milled) and parboiled forms, our rice meets strict international quality standards for grain length, aroma, moisture content, and broken grain percentage, ensuring consistent taste, texture, and performance for industrial and commercial applications.</p><p>Tailored for food processors, retailers, and exporters, our rice offerings are available in standard trade grades (Extra Long, Grade A, Sella), with packaging and bulk solutions designed to meet global trade requirements. Backed by reliable logistics, traceable sourcing, and timely delivery, we provide rice that enables businesses worldwide to maintain product quality, operational consistency, and market competitiveness.</p>",
+              "img": "comm-rice-01.jpg",
+              "reverse": true,
+              "wide": false
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "title": "5. Cotton",
+              "html": "<p>A globally essential natural fibre drives a multi-billion-dollar market with applications spanning textiles, apparel, home furnishings, and industrial by-products such as cooking oils and livestock feed. Leading producing regions, including Brazil, the U.S., and India, continue to meet growing worldwide demand, cementing cotton as a cornerstone of global trade and industry.</p><p>We specialize in sourcing and delivering premium cotton with precise fibre specifications, including staple length, micronaire, colour grade, and strength, ensuring consistent quality for spinning, weaving, and industrial applications. Our products encompass a range of cotton types, from Upland and Pima to long-staple varieties. Through robust supplier networks and efficient logistics, we guarantee timely delivery, bulk supply, and competitive pricing - providing a clear competitive edge in global markets.</p>",
+              "img": "comm-cotton-01.jpg",
+              "reverse": false,
+              "light": true,
+              "wide": false
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "title": "6. Soybeans",
+              "html": "<p>We supply high-quality soybeans sourced from leading origins, including the U.S., Brazil, and India, available in food-grade, feed-grade, and crushing-grade varieties to meet diverse industrial and commercial applications. Our soybeans adhere to strict international quality standards, including parameters for protein content, moisture level, foreign matter, and oil yield, ensuring consistent performance across food processing, animal feed, and edible oil production.</p><p>Our portfolio includes standard trade grades recognized in global commodity markets, with bulk, containerized, and shipment-ready packaging tailored for FOB, CIF, and spot delivery contracts. Whether for industrial crushing, food manufacturing, or livestock feed, our soybeans provide the quality, consistency, and market reliability required to maintain production efficiency and competitiveness in global markets.</p>",
+              "img": "comm-soybeans-01.jpg",
+              "reverse": true,
+              "wide": false
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "title": "7. Cocoa",
+              "html": "<p>Cocoa, the foundation of the global chocolate industry, drives a multi-billion-dollar market spanning confectionery, beverages, and food manufacturing. We source premium cocoa beans from leading origins - Ivory Coast, Ghana, Indonesia, and India - offering both fermented and unfermented, raw and roasted beans to meet diverse industrial and artisanal applications.</p><p>We supply standard trade grades, including CCN-51, Forastero, and Criollo, in bulk or containerized formats, optimized for FOB, CIF, and spot market contracts. Whether your operations require single-origin premium beans, industrial-grade cocoa, or custom blends, we deliver cocoa solutions that combine quality, consistency, and global market reliability, empowering your brand and production at every stage of the supply chain.</p>",
+              "img": "comm-cocoa-01.jpg",
+              "reverse": false,
+              "light": true,
+              "wide": false
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "title": "8. Nuts",
+              "html": "<p>We supply premium almonds, cashews, and pistachios sourced from India, the U.S., Africa, Iran, and Vietnam, available in raw, blanched, roasted, sliced, and chopped formats. All nuts are graded by size, count per pound, moisture, and defect limits.</p><p>Our nuts meet stringent international quality standards, making them ideal for food processors, confectionery manufacturers, retailers, and exporters. Available in bulk or containerized shipments, our supply is optimized for FOB, CIF, and contract delivery, ensuring reliable availability and competitive pricing. Whether for snacking, ingredient use, or value-added processing, our nut solutions deliver quality, consistency, and market-ready reliability.</p>",
+              "img": "comm-nuts-01.jpg",
+              "reverse": true,
+              "wide": false
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "title": "9. Spices",
+              "html": "<p>We offer a curated portfolio of export-grade spices sourced from leading producing regions. Our range includes black and white pepper from India and Vietnam in export grades such as FAQ, ASTA cleaned, and machine cleaned, valued for strong pungency, uniform size, and high volatile oil content; cinnamon (Ceylon and Cassia) from India and Vietnam, available whole and ground, known for rich aroma, natural sweetness, and consistent colour; turmeric from India in polished, unpolished, and ground export grades, recognized for high curcumin content and vibrant colour; and cardamom from India in bold green, FAQ, and seed grades, offering intense aroma and superior oil content.</p><p>All products conform to ASTA, ISO, and FSSAI standards, and are supported by HACCP certification, Halal certification, US FDA registration, and EU food compliance standards. Hygienically processed under controlled moisture conditions, our spices are a trusted choice for food manufacturers, wholesalers, and distributors worldwide seeking reliable supply, consistent quality, and timely delivery.</p>",
+              "img": "comm-spices-01.jpg",
+              "reverse": false,
+              "light": true,
+              "wide": false
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "title": "10. Edible & Industrial Oils",
+              "html": "<p>We offer a curated selection of export-grade edible and industrial oils, sourced from the world’s most reputable producing regions and crafted to meet the exacting standards of global markets. Our portfolio features Sunflower and Corn Oil from Eastern Europe, South America, and Asia, prized for their light colour, clean taste, and superior refining; Soybean Oil from the United States and South America, with a balanced fatty acid profile and versatile applications; Palm Oil from Malaysia and Indonesia, supplied in premium RBD grades for culinary and industrial use; and Castor Oil from India, renowned for high purity, stable viscosity, and suitability across industrial and pharmaceutical applications.</p><p>All products are produced in compliance with ISO and HACCP food safety systems, with Halal certification for GCC markets, US FDA registration, and full EU food compliance. Hygienically processed under controlled conditions and available in bulk shipments, flexi-tanks, and drums, our oils are the trusted choice for global food manufacturers, FMCG brands, and trading houses seeking luxury-grade quality, regulatory assurance, and seamless international delivery.</p>",
+              "img": "comm-oils-01.jpg",
+              "reverse": true,
+              "wide": false
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "title": "11. Animal Feed (Maize & Soy Meal)",
+              "html": "<p>Our export-grade maize and soy meal are sourced from the world’s leading producers, including the US, Brazil, and South America, delivering unmatched nutritional quality, consistency, and safety for livestock and poultry. Fully compliant with ISO, HACCP, Halal (GCC), US FDA, and EU feed standards, each batch is hygienically processed and traceable from origin to delivery. Available in bulk shipments, jumbo bags, and containers, our animal feed solutions offer reliable supply, superior performance, and seamless global delivery, trusted by discerning feed manufacturers, integrators, and distributors across premium international markets.</p>",
+              "img": "comm-feed-01.jpg",
+              "reverse": false,
+              "light": true,
+              "wide": false
+            }
+          ]
+        },
+        {
+          "t": "section",
+          "a": [
+            {
+              "padding": {
+                "t": "PAD",
+                "a": [
+                  50,
+                  0
+                ]
+              }
+            },
+            [
+              {
+                "t": "column",
+                "a": [
+                  100,
+                  [
+                    {
+                      "t": "widget",
+                      "a": [
+                        "menu-anchor",
+                        {
+                          "anchor": "fertilizers"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "heading",
+                      "a": [
+                        "Fertilizers",
+                        "h2",
+                        "ga-cat-label"
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "title": "12. Urea",
+              "html": "<p>Elevate your harvest with our premium urea, precision-sourced from top producers in India, China, and the Middle East. Engineered to meet global quality standards, it delivers unmatched nitrogen nutrition for food, feed, and industrial crops. With reliable supply and timely delivery, we provide agricultural businesses worldwide with the consistency and excellence they deserve.</p>",
+              "img": "comm-urea-03.jpg",
+              "reverse": true,
+              "light": true,
+              "wide": false
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "title": "13. Sulphur",
+              "html": "<p>Our premium sulphur is essential for soil fertility, crop nutrition, and industrial applications, supporting protein synthesis, enzyme function, and overall plant development. In agriculture, it enhances growth, yield, and disease resistance, while in industry it serves as a critical input for chemicals, fertilizers, and manufacturing processes.</p><p>Sourced from leading producers in India and the Middle East, each batch meets the highest international quality standards. With consistent supply, timely delivery, and tailored solutions, we empower businesses worldwide to achieve sustainable productivity, superior crop quality, and industrial excellence.</p>",
+              "img": "comm-sulphur-01.jpg",
+              "reverse": false,
+              "wide": false
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "title": "14. Potash (KCl - Muriate of Potash)",
+              "html": "<p>Our premium Muriate of Potash (MOP) delivers essential potassium to strengthen crop growth, enhance resilience, and improve yield quality across food, feed, and industrial crops. Beyond agriculture, it plays a role in certain industrial processes, including fertilizer formulations and chemical applications. Sourced from top producers in Canada, Russia, and Belarus, each batch meets rigorous international quality standards. With consistent supply, competitive pricing, and timely logistics, we provide agricultural and industrial businesses worldwide with reliable, high-performance solutions to achieve productivity, sustainability, and excellence.</p>",
+              "img": "comm-potash-01.jpg",
+              "reverse": true,
+              "light": true,
+              "wide": false
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "title": "15. DAP (Diammonium Phosphate)",
+              "html": "<p>Our premium Diammonium Phosphate (DAP) delivers essential nitrogen and phosphorus, supporting robust crop growth, enhanced yields, and soil fertility across food, feed, and industrial crops. Available in multiple grades to suit diverse agricultural and industrial requirements, it is also a key input in fertilizer formulations and certain chemical processes. Sourced from leading producers in India, China, and Morocco, every batch meets stringent international quality standards. With consistent supply, competitive pricing, and timely delivery, we empower farmers and agribusinesses worldwide with reliable, high-performance solutions that ensure productivity, sustainability, and excellence.</p>",
+              "img": "comm-dap-01.jpg",
+              "reverse": false,
+              "wide": false
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "title": "16. Rock Phosphate",
+              "html": "<p>Our premium Rock Phosphate is a key source of phosphorus, vital for soil enrichment and robust crop nutrition across food, feed, and industrial applications. Available in multiple grades to suit diverse agricultural and industrial needs, it also serves as a critical input in fertilizer formulations and chemical processes. Sourced from leading producers in Morocco, India, and other strategic regions, every batch meets stringent international quality standards. With reliable supply, competitive pricing, and timely delivery, we empower agribusinesses and industrial partners worldwide with sustainable, high-performance solutions.</p>",
+              "img": "comm-rockphosphate-01.jpg",
+              "reverse": true,
+              "light": true,
+              "wide": false
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "title": "17. NPK",
+              "html": "<p>Our premium NPK blends deliver perfectly balanced nutrition - nitrogen, phosphorus, and potassium - for optimal crop growth, yield, and resilience. Available in multiple grades and custom formulations, they cater to diverse agricultural and industrial applications, including fertilizer production and soil enhancement. Sourced from leading international producers, every batch meets stringent global quality standards. With reliable supply, tailored solutions, and timely delivery, we empower farmers and agribusinesses worldwide to achieve superior productivity, sustainable growth, and operational excellence.</p>",
+              "img": "comm-npk-01.jpg",
+              "reverse": false,
+              "wide": false
+            }
+          ]
+        },
+        {
+          "t": "section",
+          "a": [
+            {
+              "padding": {
+                "t": "PAD",
+                "a": [
+                  50,
+                  0
+                ]
+              }
+            },
+            [
+              {
+                "t": "column",
+                "a": [
+                  100,
+                  [
+                    {
+                      "t": "widget",
+                      "a": [
+                        "menu-anchor",
+                        {
+                          "anchor": "oil-gas"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "heading",
+                      "a": [
+                        "Oil & Gas",
+                        "h2",
+                        "ga-cat-label"
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "title": "Bitumen",
+              "html": "<p>We offer premium bitumen tailored for large-scale road construction, highways, and industrial applications worldwide. Sourced directly from leading refineries in the Middle East, India, and Europe, our bitumen guarantees exceptional quality, consistent performance, and full traceability from origin to delivery.</p><p>Our portfolio includes VG-10, VG-30, VG-40, and polymer-modified bitumen (PMB), catering to diverse project specifications and high-performance requirements. With a focus on bulk supply, reliable logistics, and timely global shipments, we ensure our international clients receive consistent volumes without compromise. We are committed to being a trusted partner in premium infrastructure solutions, delivering bitumen that meets the highest global standards of durability and reliability.</p>",
+              "img": "comm-bitumen-01.jpg",
+              "reverse": true,
+              "light": true,
+              "wide": false
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "title": "Diesel (EN590) and Jet Fuel",
+              "html": "<p>We supply Jet Fuel A1 and EN590 Diesel (10 ppm) for aviation, industrial, and transportation applications worldwide. Sourced directly from trusted refineries in the Middle East, Europe, and Asia, our fuels meet ASTM D1655 / DEF STAN specifications for Jet Fuel A1 and EN590 (10 ppm sulfur) standards for diesel, ensuring optimal performance, efficiency, and compliance with international regulations.</p><p>Our bulk supply capabilities guarantee consistent volumes. With a focus on premium quality, reliability, and large-volume solutions, we are a trusted partner for airlines, industrial operators, and transportation providers seeking dependable fuel supply worldwide.</p>",
+              "img": "comm-diesel-01.jpg",
+              "reverse": false,
+              "wide": false
+            }
+          ]
+        },
+        {
+          "t": "section",
+          "a": [
+            {
+              "padding": {
+                "t": "PAD",
+                "a": [
+                  50,
+                  0
+                ]
+              }
+            },
+            [
+              {
+                "t": "column",
+                "a": [
+                  100,
+                  [
+                    {
+                      "t": "widget",
+                      "a": [
+                        "menu-anchor",
+                        {
+                          "anchor": "metals"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "heading",
+                      "a": [
+                        "Metals & Construction Materials",
+                        "h2",
+                        "ga-cat-label"
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "title": "Cement, Steel Bars & Copper Cathode",
+              "html": "<p>GazMin Commodities maintains a strong presence in construction and industrial materials, including Cement products, Steel Bars, and Copper Cathode. These commodities are critical to infrastructure development, energy transition, and manufacturing supply chains. Through structured sourcing, contract optimization, and efficient logistics, we help our partners manage cost, continuity, and operational risk across volatile markets.</p><p><em>Detailed product write-ups for this vertical are being finalized and will be published shortly.</em></p>",
+              "img": "why-03.jpg",
+              "reverse": true,
+              "light": true,
+              "wide": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "careers",
+      "title": "Careers",
+      "sections": [
+        {
+          "t": "hero",
+          "a": [
+            {
+              "inner": true,
+              "title": "Careers - Join the GazMin Family",
+              "sub": "“Shape the Future of Global Commodities with GazMin International”",
+              "image": "careers-01.jpg"
+            }
+          ]
+        },
+        {
+          "t": "quoteBand",
+          "a": [
+            "“Join a dynamic team driving innovation and excellence in international trade.”",
+            null,
+            {
+              "img": "careers-02.jpg"
+            }
+          ]
+        },
+        {
+          "t": "section",
+          "a": [
+            {
+              "css_classes": "ga-section-light",
+              "padding": {
+                "t": "PAD",
+                "a": [
+                  70,
+                  70
+                ]
+              }
+            },
+            [
+              {
+                "t": "column",
+                "a": [
+                  50,
+                  [
+                    {
+                      "t": "image",
+                      "a": [
+                        "careers-03.jpg",
+                        "ga-img-frame"
+                      ]
+                    }
+                  ]
+                ]
+              },
+              {
+                "t": "column",
+                "a": [
+                  50,
+                  [
+                    {
+                      "t": "eyebrow",
+                      "a": [
+                        "Opportunities"
+                      ]
+                    },
+                    {
+                      "t": "heading",
+                      "a": [
+                        "“Explore Opportunities”",
+                        "h2"
+                      ]
+                    },
+                    {
+                      "t": "divider",
+                      "a": []
+                    },
+                    {
+                      "t": "image",
+                      "a": [
+                        "careers-04.jpg",
+                        "ga-img-frame"
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "eyebrow": "Careers",
+              "title": "Why Work at GazMin International?",
+              "html": "<p>Embrace a workplace designed for ambitious international business executives, where learning is continuous and impact is tangible. Operating across multiple business sectors, GazMin offers daily exposure to global markets, strategic decision-making, and cross-border operations that consistently enhance professional expertise and personal knowledge. You will collaborate with intelligent, like-minded professionals in a high-performance, supportive environment. At GazMin, careers are purpose-driven - shaping future leaders and empowering individuals to grow beyond roles into confident, successful entrepreneurs.</p>",
+              "img": "careers-11.jpg",
+              "reverse": true
+            }
+          ]
+        },
+        {
+          "t": "block",
+          "a": [
+            {
+              "eyebrow": "Explore Opportunities",
+              "title": "Apply Today and Join Our Global Team",
+              "html": "<p>To apply for any of our current openings or express your interest in joining GazMin International, please submit your resume and a cover letter to <a href=\"mailto:career@gazminintl.com\"><strong>career@gazminintl.com</strong></a>. Be sure to highlight your relevant experience, skills and why you're excited about the prospect of working with us.</p>",
+              "img": "careers-13.jpg",
+              "reverse": true,
+              "light": true,
+              "cta": {
+                "text": "Contact us",
+                "link": "/contact/"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "sections": [
+        {
+          "t": "hero",
+          "a": [
+            {
+              "inner": true,
+              "title": "Connect With Us",
+              "sub": "We are more than looking forward to hearing from you. Contact us with your requirement and we will be happy to assist you.",
+              "image": "contact-03.jpg"
+            }
+          ]
+        },
+        {
+          "t": "section",
+          "a": [
+            {
+              "padding": {
+                "t": "PAD",
+                "a": [
+                  80,
+                  40
+                ]
+              }
+            },
+            [
+              {
+                "t": "column",
+                "a": [
+                  100,
+                  [
+                    {
+                      "t": "heading",
+                      "a": [
+                        "How can we help?",
+                        "h3"
+                      ]
+                    },
+                    {
+                      "t": "text",
+                      "a": [
+                        "<p>Feel free to ask a question or simply leave a comment.</p>"
+                      ]
+                    },
+                    {
+                      "t": "shortcode",
+                      "a": [
+                        "{{FORM:contact}}"
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "t": "section",
+          "a": [
+            {
+              "css_classes": "ga-section-light",
+              "padding": {
+                "t": "PAD",
+                "a": [
+                  70,
+                  20
+                ]
+              }
+            },
+            [
+              {
+                "t": "column",
+                "a": [
+                  100,
+                  [
+                    {
+                      "t": "eyebrow",
+                      "a": [
+                        "Find Us"
+                      ]
+                    },
+                    {
+                      "t": "heading",
+                      "a": [
+                        "Visit Our Office",
+                        "h2",
+                        "",
+                        {
+                          "align": "center"
+                        }
+                      ]
+                    },
+                    {
+                      "t": "divider",
+                      "a": []
+                    }
+                  ]
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "t": "section",
+          "a": [
+            {
+              "css_classes": "ga-section-light",
+              "padding": {
+                "t": "PAD",
+                "a": [
+                  10,
+                  80
+                ]
+              }
+            },
+            [
+              {
+                "t": "column",
+                "a": [
+                  35,
+                  [
+                    {
+                      "t": "heading",
+                      "a": [
+                        "Locate us",
+                        "h3"
+                      ]
+                    },
+                    {
+                      "t": "text",
+                      "a": [
+                        "<p>1503 &amp; 1504 Grosvenor Business Bay Tower,<br>Business Bay - Dubai, U.A.E</p>\n<p><strong>Email</strong><br><a href=\"mailto:commodity@gazminintl.com\">commodity@gazminintl.com</a></p>\n<p><strong>Contact Us</strong><br><a href=\"tel:+97142407778\">+971 4 240 7778</a><br><a href=\"tel:+97148350458\">+971 4 835 0458</a></p>"
+                      ]
+                    }
+                  ]
+                ]
+              },
+              {
+                "t": "column",
+                "a": [
+                  65,
+                  [
+                    {
+                      "t": "googleMap",
+                      "a": [
+                        "Gazmin International, Grosvenor Business Bay Tower, Business Bay, Dubai",
+                        "ga-map"
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

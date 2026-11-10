@@ -1,0 +1,12 @@
+{
+  "scanned": "2026-11-09",
+  "findings": {
+    "fonts": "Geist + Geist Mono via next/font (app/layout.tsx:2-12), scaffold default; brand faces DM Sans + Playfair Display in ../themes/gazmin-commodities/functions.php:12; gazminintl.com uses DM Sans + Forum",
+    "palette": "shadcn neutral OKLCH defaults (app/globals.css :root), scaffold default; brand spec from the logo: gold oklch(76.5% 0.148 86.9), navy oklch(31.7% 0.106 273.1)",
+    "motion": "none installed; Aceternity components bring motion",
+    "spacing": "Tailwind v4 defaults",
+    "framework": "Next.js 16.4.5 App Router, static export (next.config.ts), Tailwind v4, shadcn base-nova with the @aceternity registry"
+  },
+  "preserve": ["framework and static export", "Tailwind v4 and shadcn aliases", "brand palette from the logo", "DM Sans as the body face (brand)"],
+  "introduce": ["Hallmark tokens on the brand route", "League Spartan display face", "stamp and gates", "hero discipline", "one reveal", "slots"]
+}
