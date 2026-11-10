@@ -32,8 +32,8 @@ function shipKeyframes(name: string, from: { x: number; y: number }, to: { x: nu
  * so they run on the compositor (an SVG animation would lay the map out every frame);
  * under reduced motion or the motion switch the map holds still.
  *
- * This flat map is what phones, reduced motion and script-off visitors see, and what everyone
- * sees first; on the desktop layout the globe then fades in over it.
+ * This flat map is what reduced motion and script-off visitors see, and what everyone
+ * sees first; the globe then fades in over it.
  */
 export function TradeMap({ id = "map", caption, className = "" }: { id?: string; caption?: string; className?: string }) {
   const { width: w, height: h, hub, regions } = map;
@@ -86,7 +86,7 @@ export function TradeMap({ id = "map", caption, className = "" }: { id?: string;
         <span className={`map__label map__label--${hub.place} map__label--hub`} style={{ left: pct(hub.x, w), top: pct(hub.y, h) }}>
           {hub.label}
         </span>
-        {/* On the desktop layout a globe takes this map's place once it has loaded (components/globe.tsx). */}
+        {/* A globe takes this map's place once it has loaded (components/globe.tsx). */}
         <TradeGlobe />
       </div>
       {caption && <figcaption>{caption}</figcaption>}

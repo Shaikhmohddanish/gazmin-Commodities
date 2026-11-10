@@ -622,11 +622,11 @@ html:not(.js) .loop-toggle { display: none; }
 .js .map__routes { clip-path: circle(0% at var(--hub-x) var(--hub-y)); transition: clip-path 1.6s var(--ease-out) 0.2s; }
 .js .is-in .map__routes { clip-path: circle(150% at var(--hub-x) var(--hub-y)); }
 .motion-off .map__ship, .js .map:not(.is-live) .map__ship { display: none; }
-/* The globe (Aceternity UI's Globe, components/globe.tsx), on the desktop layout only: once it has loaded it takes
-   the flat map's place, rising out of the foot of the very same box, so nothing around it moves. Phones, reduced
+/* The globe (Aceternity UI's Globe, components/globe.tsx), on every screen (phones too, owner request 2026-11-11): once it has loaded it takes
+   the flat map's place, rising out of the foot of the very same box, so nothing around it moves. Reduced
    motion and pages without script keep the flat map, which is also what shows while the globe loads. */
 .map__globe { display: none; }
-@media (min-width: 60.0625rem) and (prefers-reduced-motion: no-preference) {
+@media (prefers-reduced-motion: no-preference) {
   .js .map__globe {
     display: block;
     position: absolute;
@@ -643,13 +643,16 @@ html:not(.js) .loop-toggle { display: none; }
   /* Taller than the box and hung from its top: the globe sits in the middle of this, so the box shows its upper part. */
   .map__globe-stage { position: absolute; inset: 0 0 auto; height: 180%; }
   /* A label's anchor: the script moves it to its place on the globe every frame; the label hangs off it as on the flat map. */
-  .map__globe-label { position: absolute; inset: 0 auto auto 0; visibility: hidden; pointer-events: none; }
+  /* Each on a layer of its own, so moving one is not a repaint. */
+  .map__globe-label { position: absolute; inset: 0 auto auto 0; visibility: hidden; pointer-events: none; will-change: transform; }
   .map__canvas:has(> .map__globe.is-ready) > :not(.map__globe) { opacity: 0; visibility: hidden; transition: opacity 0.8s var(--ease-out), visibility 0s 0.8s; }
   .map:has(.map__globe.is-ready) { --loop-state: paused; }
 }
-/* A finger on the globe scrolls the page; only a mouse drags it round. */
-@media (pointer: coarse) {
-  .map__globe { pointer-events: none; }
+/* On a phone the box is small but the labels are not: the globe hangs a little lower, so the labels on its
+   upper edge (Europe, Asia) stay inside the box, and the fade at its foot starts lower to match. */
+@media (max-width: 40rem) and (prefers-reduced-motion: no-preference) {
+  .map__globe-stage { top: 7%; }
+  .js .map__globe { -webkit-mask: linear-gradient(180deg, var(--color-ink) 84%, transparent); mask: linear-gradient(180deg, var(--color-ink) 84%, transparent); }
 }
 
 /* Trade book: the index of what GazMin trades */

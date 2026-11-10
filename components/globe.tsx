@@ -8,7 +8,7 @@ import { useMotionOff } from "./motion";
 const GlobeScene = dynamic(() => import("./globe-scene"), { ssr: false });
 
 /**
- * The globe's place inside the trade map. CSS shows this layer only on the desktop layout and
+ * The globe's place inside the trade map. CSS shows this layer on every screen, but
  * only for visitors who have not asked for reduced motion (app/globals.css); everywhere else it
  * is `display: none`, never comes on screen, and so never loads anything. Once it has been on
  * screen for a moment (long enough for the page's entrance to finish) the globe is fetched,

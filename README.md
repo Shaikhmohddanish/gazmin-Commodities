@@ -42,6 +42,7 @@ Adapted from Aceternity UI to the brand tokens and rebuilt without the motion li
 | Component | Where | File |
 |---|---|---|
 | World Map | Home hero, Why GazMin | `components/trade-map.tsx` |
+| Globe | On every screen, phones included: takes the flat map's place in the Home hero and on Why GazMin once it has loaded (403 KB compressed, fetched on demand). Reduced motion and script-off keep the flat map. Turn it by dragging with a mouse or swiping sideways with a finger (an up-down swipe still scrolls the page). Land dots are prepared by `node scripts/globe.mjs` | `components/globe.tsx`, `components/globe-scene.tsx` |
 | Container Scroll | Home trade book: leans back in 3D and flattens as it arrives | `app/globals.css` (`.book`) |
 | Apple Cards Carousel | Home, Core Business Segments | `components/carousel.tsx` |
 | 3D Card | Leader portraits, Home and Corporate Profile | `components/effects.tsx` (`[data-tilt]`) |
@@ -121,6 +122,7 @@ Not tried on a real device: the installed (home-screen) mode on an iPhone, and "
 - The map's cargo and port pulses are plain elements moved by transform and opacity, so they run on the compositor (the SVG animation they replaced laid the map out every frame).
 - Measured with nobody touching the page: the hero does about 14 ms of main-thread work a second, everything below it about 0.
 - Phones keep half the motes and meteors. Every loop pauses off screen and with "Pause motion".
+- The globe draws 30 frames a second in one animation frame each, with three-globe's own four loops stopped, labels touched only when they move a whole pixel, and no scroll-blocking wheel listener. Measured with the globe on screen, against the first deployed globe: desktop 126 → 90 ms of main-thread work a second, phone 123 → 82, a phone slowed 4x 323 → 220. Off screen it costs nothing.
 
 ## Motion
 
